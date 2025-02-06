@@ -316,3 +316,11 @@ shap.summary_plot(shap_values, X_test_scaled, feature_names=selected_feature_nam
 plt.title('SHAP Summary Plot')
 plt.tight_layout()
 plt.show() 
+
+
+#Notes for code improvement 
+## 1. Speed up Optuna with parallelization (n_jobs=-1)
+## 2. Optimise memory usage using scripy.sparse
+## 3. Save Optuna trials so tuning can be resumed (sqlite)
+## 4. Try using RFE instead of SelectKBest
+## 5. Improve SHAP analysis to include bar charts.
