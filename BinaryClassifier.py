@@ -184,7 +184,7 @@ def objective(trial):
     return np.mean(cv_scores)
 
 
-# Optimize with more trials and TPE sampler
+# Optimize with more trials and TPE sampler.
 study = optuna.create_study(
     direction='maximize',
     sampler=optuna.samplers.TPESampler(n_startup_trials=20)
