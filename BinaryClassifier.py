@@ -22,7 +22,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-# 1. Function to read and flatten data
+# 1. Function to read and flatten data.
 def read_and_flatten(file_path):
     df = pd.read_csv(file_path, header=None)
     brain_regions = df.iloc[0, 1:].tolist()
