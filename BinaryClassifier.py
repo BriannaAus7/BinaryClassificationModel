@@ -322,6 +322,6 @@ plt.show()
 #Notes for code improvement 
 ## 1. Speed up Optuna with parallelization (n_jobs=-1)
 ## 2. Optimise memory usage using scripy.sparse
-## 3. Save Optuna trials so tuning can be resumed (sqlite)
+## 3. Save Optuna trial so tuning can be resumed (sqlite)
 ## 4. Try using RFE instead of SelectKBest
 ## 5. Improve SHAP analysis to include bar charts.
